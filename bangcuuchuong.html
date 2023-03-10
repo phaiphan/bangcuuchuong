@@ -1,0 +1,22 @@
+<body>
+    
+    <script>
+        let a= "<table border='1' style='width:100%' >";
+        let i=2;
+        while (i<=9) {
+            let j=1
+            a=a + "<tr>"
+            while (j<=10) {
+               
+                a=a + "<td>" + i + "x"+ j + "=" + i*j + "</td>" ;
+                j++;
+            }
+            i++;
+            a=a+ "</tr>";
+        
+        }
+    a=a+"</table>" ;
+    alert(a)
+    document.write(a);
+    </script>
+</body>
